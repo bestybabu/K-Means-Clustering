@@ -4,10 +4,10 @@ import numpy as np
 import pickle
 
 # Load the saved model and scaler
-with open('model.pkl', 'rb') as f:
+with open('model(1).pkl', 'rb') as f:
     model = pickle.load(f)
 
-with open('scaler.pkl', 'rb') as f:
+with open('scaler(1).pkl', 'rb') as f:
     scaler = pickle.load(f)
 
 st.set_page_config(page_title="Biomarker Classification App", layout="centered")
